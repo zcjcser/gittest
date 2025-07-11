@@ -15,5 +15,3 @@ if __name__ == "__main__":
     path = get_file_path(filename)
     if path:
         print(f"The absolute path of '{filename}' is: {path}")
-    else:
-        print(f"File '{filename}' does not exist.")
